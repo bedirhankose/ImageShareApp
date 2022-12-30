@@ -13,6 +13,7 @@
 		7FADF23F295F9D160037AA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF23D295F9D160037AA55 /* Main.storyboard */; };
 		7FADF241295F9D170037AA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF240295F9D170037AA55 /* Assets.xcassets */; };
 		7FADF244295F9D170037AA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF242295F9D170037AA55 /* LaunchScreen.storyboard */; };
+		7FADF24C295F9E7F0037AA55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF24B295F9E7F0037AA55 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7FADF240295F9D170037AA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FADF243295F9D170037AA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FADF245295F9D170037AA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FADF24B295F9E7F0037AA55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7FADF240295F9D170037AA55 /* Assets.xcassets */,
 				7FADF242295F9D170037AA55 /* LaunchScreen.storyboard */,
 				7FADF245295F9D170037AA55 /* Info.plist */,
+				7FADF24B295F9E7F0037AA55 /* GoogleService-Info.plist */,
 			);
 			path = ImageShareApp;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FADF244295F9D170037AA55 /* LaunchScreen.storyboard in Resources */,
+				7FADF24C295F9E7F0037AA55 /* GoogleService-Info.plist in Resources */,
 				7FADF241295F9D170037AA55 /* Assets.xcassets in Resources */,
 				7FADF23F295F9D160037AA55 /* Main.storyboard in Resources */,
 			);
