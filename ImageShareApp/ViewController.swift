@@ -10,7 +10,7 @@ import FirebaseCore
 import FirebaseAuth
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var appLabel: UILabel!
     
     @IBOutlet weak var emailTF: UITextField!
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         } else {
             errorMessage(titleInput: "Error!", messageInput: "Please enter your username and password!")
         }
-
+        
     }
     
     func errorMessage(titleInput: String, messageInput: String) {
@@ -51,6 +51,6 @@ class ViewController: UIViewController {
         alert.addAction(okButton)
         self.present(alert, animated: true)
     }
-
+    
 }
 
