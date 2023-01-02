@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Settings-->
+        <scene sceneID="8D5-Vn-EzN">
+            <objects>
+                <viewController id="BKs-Pb-o5s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2oB-13-cog">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="iab-ZZ-Gq9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="rIG-4c-y26"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQr-ef-Q5t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2483" y="-28"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -99,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDe-eu-2VF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1752" y="349"/>
+            <point key="canvasLocation" x="1752" y="340"/>
         </scene>
         <!--Feed-->
         <scene sceneID="Cnu-2f-EQ2">
@@ -115,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LzN-RY-AaX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1752" y="-331"/>
+            <point key="canvasLocation" x="1752" y="-374"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qQN-QE-e9j">
@@ -130,6 +146,7 @@
                     <connections>
                         <segue destination="hJ4-qf-8ac" kind="relationship" relationship="viewControllers" id="gao-MR-XUS"/>
                         <segue destination="p55-FX-WGn" kind="relationship" relationship="viewControllers" id="6mE-c9-gPV"/>
+                        <segue destination="BKs-Pb-o5s" kind="relationship" relationship="viewControllers" id="ntD-9O-tMr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UnS-pt-yda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -138,6 +155,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
         <image name="rectangle.portrait.and.arrow.right.fill" catalog="system" width="128" height="108"/>
         <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
