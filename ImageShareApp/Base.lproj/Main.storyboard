@@ -11,18 +11,32 @@
         <!--Settings-->
         <scene sceneID="8D5-Vn-EzN">
             <objects>
-                <viewController id="BKs-Pb-o5s" sceneMemberID="viewController">
+                <viewController id="BKs-Pb-o5s" customClass="SettingsViewController" customModule="ImageShareApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2oB-13-cog">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZY-0j-Brh">
+                                <rect key="frame" x="158" y="409" width="77.333333333333314" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutTapped:" destination="BKs-Pb-o5s" eventType="touchUpInside" id="ejZ-95-zhe"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="iab-ZZ-Gq9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yZY-0j-Brh" firstAttribute="centerY" secondItem="2oB-13-cog" secondAttribute="centerY" id="gRq-rf-xhT"/>
+                            <constraint firstItem="yZY-0j-Brh" firstAttribute="centerX" secondItem="2oB-13-cog" secondAttribute="centerX" id="yf0-5d-xn7"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="gearshape.fill" catalog="system" id="rIG-4c-y26"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQr-ef-Q5t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2483" y="-28"/>
+            <point key="canvasLocation" x="2481.679389312977" y="-28.169014084507044"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -104,7 +118,7 @@
         <!--Upload-->
         <scene sceneID="OPm-tI-a8t">
             <objects>
-                <viewController id="p55-FX-WGn" sceneMemberID="viewController">
+                <viewController id="p55-FX-WGn" customClass="UploadViewController" customModule="ImageShareApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z6T-8t-Nbs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +134,7 @@
         <!--Feed-->
         <scene sceneID="Cnu-2f-EQ2">
             <objects>
-                <viewController id="hJ4-qf-8ac" sceneMemberID="viewController">
+                <viewController id="hJ4-qf-8ac" customClass="FeedViewController" customModule="ImageShareApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sLs-s9-u4f">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
