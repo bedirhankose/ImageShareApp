@@ -18,6 +18,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="4Et-Jm-8B6" kind="show" id="wGs-2A-NIp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -28,7 +31,7 @@
             <objects>
                 <viewController id="p55-FX-WGn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z6T-8t-Nbs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="mEn-4d-POU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -44,7 +47,7 @@
             <objects>
                 <viewController id="hJ4-qf-8ac" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sLs-s9-u4f">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="yVG-Qa-jhv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -59,6 +62,7 @@
         <scene sceneID="qQN-QE-e9j">
             <objects>
                 <tabBarController id="4Et-Jm-8B6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ag4-kf-w3v"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0zd-FS-TOt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
