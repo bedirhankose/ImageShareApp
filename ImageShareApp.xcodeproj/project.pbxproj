@@ -85,12 +85,12 @@
 				7FADF23B295F9D160037AA55 /* ViewController.swift */,
 				7FCD21B3296367530015A0B8 /* FeedViewController.swift */,
 				7FCD21B5296367680015A0B8 /* UploadViewController.swift */,
+				7FCD21B7296367780015A0B8 /* SettingsViewController.swift */,
 				7FADF23D295F9D160037AA55 /* Main.storyboard */,
 				7FADF240295F9D170037AA55 /* Assets.xcassets */,
 				7FADF242295F9D170037AA55 /* LaunchScreen.storyboard */,
 				7FADF245295F9D170037AA55 /* Info.plist */,
 				7FADF24B295F9E7F0037AA55 /* GoogleService-Info.plist */,
-				7FCD21B7296367780015A0B8 /* SettingsViewController.swift */,
 			);
 			path = ImageShareApp;
 			sourceTree = "<group>";
