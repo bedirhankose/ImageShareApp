@@ -42,11 +42,17 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign in"/>
+                                <connections>
+                                    <action selector="signinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZQS-k1-arD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jo4-et-BHp">
                                 <rect key="frame" x="225" y="267" width="110" height="40"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign up"/>
+                                <connections>
+                                    <action selector="signupButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2W-Iy-Z7l"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -69,6 +75,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="appLabel" destination="uxd-M4-OCb" id="DGe-pI-xUF"/>
+                        <outlet property="emailTF" destination="087-Up-fOB" id="4T3-gE-Zud"/>
+                        <outlet property="passwordTF" destination="LwM-Pf-WWQ" id="PTA-Bi-9dt"/>
                         <segue destination="4Et-Jm-8B6" kind="presentation" identifier="toFeedVC" modalPresentationStyle="fullScreen" id="wGs-2A-NIp"/>
                     </connections>
                 </viewController>
