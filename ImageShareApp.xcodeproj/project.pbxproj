@@ -14,6 +14,9 @@
 		7FADF241295F9D170037AA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF240295F9D170037AA55 /* Assets.xcassets */; };
 		7FADF244295F9D170037AA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF242295F9D170037AA55 /* LaunchScreen.storyboard */; };
 		7FADF24C295F9E7F0037AA55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FADF24B295F9E7F0037AA55 /* GoogleService-Info.plist */; };
+		7FCD21B4296367530015A0B8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD21B3296367530015A0B8 /* FeedViewController.swift */; };
+		7FCD21B6296367680015A0B8 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD21B5296367680015A0B8 /* UploadViewController.swift */; };
+		7FCD21B8296367780015A0B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD21B7296367780015A0B8 /* SettingsViewController.swift */; };
 		833F4280CD307EB848D9BB99 /* Pods_ImageShareApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8B9FEB18536EF2CFF971CF /* Pods_ImageShareApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		7FADF243295F9D170037AA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FADF245295F9D170037AA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FADF24B295F9E7F0037AA55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FCD21B3296367530015A0B8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		7FCD21B5296367680015A0B8 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		7FCD21B7296367780015A0B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BA8B9FEB18536EF2CFF971CF /* Pods_ImageShareApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageShareApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5B7AC942383F711625905D /* Pods-ImageShareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageShareApp.debug.xcconfig"; path = "Target Support Files/Pods-ImageShareApp/Pods-ImageShareApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED14FC9C82D9D22567D99B1A /* Pods-ImageShareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageShareApp.release.xcconfig"; path = "Target Support Files/Pods-ImageShareApp/Pods-ImageShareApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,7 +56,6 @@
 				BD5B7AC942383F711625905D /* Pods-ImageShareApp.debug.xcconfig */,
 				ED14FC9C82D9D22567D99B1A /* Pods-ImageShareApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,11 +83,14 @@
 				7FADF237295F9D160037AA55 /* AppDelegate.swift */,
 				7FADF239295F9D160037AA55 /* SceneDelegate.swift */,
 				7FADF23B295F9D160037AA55 /* ViewController.swift */,
+				7FCD21B3296367530015A0B8 /* FeedViewController.swift */,
+				7FCD21B5296367680015A0B8 /* UploadViewController.swift */,
 				7FADF23D295F9D160037AA55 /* Main.storyboard */,
 				7FADF240295F9D170037AA55 /* Assets.xcassets */,
 				7FADF242295F9D170037AA55 /* LaunchScreen.storyboard */,
 				7FADF245295F9D170037AA55 /* Info.plist */,
 				7FADF24B295F9E7F0037AA55 /* GoogleService-Info.plist */,
+				7FCD21B7296367780015A0B8 /* SettingsViewController.swift */,
 			);
 			path = ImageShareApp;
 			sourceTree = "<group>";
@@ -212,8 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FADF23C295F9D160037AA55 /* ViewController.swift in Sources */,
+				7FCD21B6296367680015A0B8 /* UploadViewController.swift in Sources */,
 				7FADF238295F9D160037AA55 /* AppDelegate.swift in Sources */,
+				7FCD21B4296367530015A0B8 /* FeedViewController.swift in Sources */,
 				7FADF23A295F9D160037AA55 /* SceneDelegate.swift in Sources */,
+				7FCD21B8296367780015A0B8 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
