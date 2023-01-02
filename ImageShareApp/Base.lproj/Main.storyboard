@@ -19,40 +19,40 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <segue destination="4Et-Jm-8B6" kind="show" id="wGs-2A-NIp"/>
+                        <segue destination="4Et-Jm-8B6" kind="presentation" identifier="toFeedVC" modalPresentationStyle="fullScreen" id="wGs-2A-NIp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="-27"/>
         </scene>
-        <!--Item 2-->
+        <!--Upload-->
         <scene sceneID="OPm-tI-a8t">
             <objects>
                 <viewController id="p55-FX-WGn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z6T-8t-Nbs">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="mEn-4d-POU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Udb-gL-ogl"/>
+                    <tabBarItem key="tabBarItem" title="Upload" image="square.and.arrow.up.fill" catalog="system" id="Udb-gL-ogl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDe-eu-2VF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1752" y="276"/>
+            <point key="canvasLocation" x="1752" y="349"/>
         </scene>
-        <!--Item 1-->
+        <!--Feed-->
         <scene sceneID="Cnu-2f-EQ2">
             <objects>
                 <viewController id="hJ4-qf-8ac" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sLs-s9-u4f">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="yVG-Qa-jhv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="0gR-HR-DSe"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="rectangle.portrait.and.arrow.right.fill" catalog="system" id="0gR-HR-DSe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LzN-RY-AaX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,6 +79,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="rectangle.portrait.and.arrow.right.fill" catalog="system" width="128" height="108"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
