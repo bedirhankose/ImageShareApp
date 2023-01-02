@@ -16,6 +16,7 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func logoutTapped(_ sender: Any) {
+        performSegue(withIdentifier: "toViewController", sender: nil)
         
     }
     
